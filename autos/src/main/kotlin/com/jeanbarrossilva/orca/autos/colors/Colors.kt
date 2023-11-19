@@ -26,7 +26,7 @@ enum class Colors {
     override val placeholder = 0xFF3E3E3E
     override val primary = 0xFF000000 on 0xFFFFFFFF
     override val secondary = 0xFFA0A0A0
-    override val surface = secondary on 0xFFFFFFFF
+    override val surface = secondary on 0xFF1A1A1A
     override val tertiary = 0xFF757575
   };
 
