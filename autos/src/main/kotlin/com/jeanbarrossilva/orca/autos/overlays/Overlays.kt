@@ -8,6 +8,6 @@ package com.jeanbarrossilva.orca.autos.overlays
 data class Overlays internal constructor(val fab: Margins) {
   companion object {
     /** [Overlays] that should be provided by default. */
-    val default = Overlays(fab = Margins(start = 16f, bottom = 16f))
+    val default = Overlays(fab = Margins(bottom = 16f))
   }
 }
