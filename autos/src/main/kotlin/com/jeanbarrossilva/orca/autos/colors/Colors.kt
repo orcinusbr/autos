@@ -7,26 +7,26 @@ import com.jeanbarrossilva.orca.autos.colors.contrast.on
 enum class Colors {
   LIGHT {
     override val activation = Activation.default
-    override val background = 0xFFFFFFFF on 0xFF000000
-    override val disabled = 0xFFEDEDED on 0xFF050505
-    override val error = 0xFFE15050 on 0xFFFFFFFF
+    override val background = 0xFF000000 on 0xFFFFFFFF
+    override val disabled = 0xFF050505 on 0xFFEDEDED
+    override val error = 0xFFFFFFFF on 0xFFE15050
     override val link = 0xFF10A9FF
     override val placeholder = 0xFFF5F5F5
-    override val primary = 0xFF000000 on 0xFFFFFFFF
+    override val primary = 0xFFFFFFFF on 0xFF000000
     override val secondary = 0xFF5B5B5B
-    override val surface = 0xFFFFFFFF on secondary
+    override val surface = secondary on 0xFFFFFFFF
     override val tertiary = 0xFFAFAFAF
   },
   DARK {
     override val activation = Activation.default
-    override val background = 0xFF0B0B0B on 0xFFFFFFFF
-    override val disabled = 0xFF3E3E3E on 0xFFE5E5E5
-    override val error = 0xFFE15050 on 0xFFFFFFFF
+    override val background = 0xFFFFFFFF on 0xFF0B0B0B
+    override val disabled = 0xFFE5E5E5 on 0xFF3E3E3E
+    override val error = 0xFFFFFFFF on 0xFFE15050
     override val link = 0xFF10A9FF
     override val placeholder = 0xFF3E3E3E
-    override val primary = 0xFFFFFFFF on 0xFF000000
+    override val primary = 0xFF000000 on 0xFFFFFFFF
     override val secondary = 0xFFA0A0A0
-    override val surface = 0xFF1A1A1A on secondary
+    override val surface = secondary on 0xFFFFFFFF
     override val tertiary = 0xFF757575
   };
 
