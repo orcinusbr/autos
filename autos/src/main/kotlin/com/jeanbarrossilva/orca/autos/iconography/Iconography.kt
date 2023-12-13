@@ -5,8 +5,11 @@ package com.jeanbarrossilva.orca.autos.iconography
  *
  * @param add ID of the icon that conveys the idea of addition or concatenation.
  * @param back ID of the icon that represents back navigation.
+ * @param close ID of the icon that, given a navigation chain of destinations, expresses the intent
+ *   of popping them and returning to the initial one.
  * @param comment [Icon] of a comment.
  * @param compose [Icon] for creation scenarios.
+ * @param download ID of the icon that designates the act of downloading content.
  * @param edit [Icon] that implies editing.
  * @param empty ID of the icon that characterizes emptiness.
  * @param expand ID of the icon for communicating possibility of expansion.
@@ -31,9 +34,11 @@ data class Iconography
 internal constructor(
   val add: String,
   val back: String,
+  val close: String,
   val comment: Icon,
   val compose: Icon,
   val delete: Icon,
+  val download: String,
   val edit: Icon,
   val empty: String,
   val expand: String,
@@ -58,9 +63,11 @@ internal constructor(
       Iconography(
         "add",
         "back",
+        "close",
         Icon("comment-outlined", "comment-filled"),
         Icon("compose-outlined", "compose-filled"),
         Icon("delete-outlined", "delete-filled"),
+        "download",
         Icon("edit-outlined", "edit-filled"),
         "empty",
         "expand",
