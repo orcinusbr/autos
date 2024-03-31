@@ -7,11 +7,12 @@ import com.jeanbarrossilva.orca.autos.colors.contrast.on
 enum class Colors {
   LIGHT {
     override val activation = Activation.default
+    override val backdrop = 0xFFF5F5F5
     override val background = 0xFF000000 on 0xFFFFFFFF
     override val disabled = 0xFF050505 on 0xFFEDEDED
     override val error = 0xFFFFFFFF on 0xFFE15050
     override val link = 0xFF10A9FF
-    override val placeholder = 0xFFF5F5F5
+    override val placeholder = backdrop
     override val primary = 0xFFFFFFFF on 0xFF000000
     override val secondary = 0xFF5B5B5B
     override val surface = secondary on 0xFFFFFFFF
@@ -19,6 +20,7 @@ enum class Colors {
   },
   DARK {
     override val activation = Activation.default
+    override val backdrop = 0xFF1A1A1A
     override val background = 0xFFFFFFFF on 0xFF0B0B0B
     override val disabled = 0xFFE5E5E5 on 0xFF3E3E3E
     override val error = 0xFFFFFFFF on 0xFFE15050
@@ -26,12 +28,15 @@ enum class Colors {
     override val placeholder = 0xFF3E3E3E
     override val primary = 0xFF000000 on 0xFFFFFFFF
     override val secondary = 0xFFA0A0A0
-    override val surface = secondary on 0xFF1A1A1A
+    override val surface = secondary on backdrop
     override val tertiary = 0xFF757575
   };
 
   /** [Activation] for representing various activation states. */
   abstract val activation: Activation
+
+  /** Color for the background of an illustration. */
+  abstract val backdrop: Long
 
   /** [Contrast] for the overall background. */
   abstract val background: Contrast
