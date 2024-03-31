@@ -1,4 +1,4 @@
-package br.com.orcinus.autos
+package br.com.orcinus.orca.autos
 
 /**
  * Sizes for spacing, such as the distance between one component and another or padding.

@@ -1,4 +1,4 @@
-package br.com.orcinus.autos.forms
+package br.com.orcinus.orca.autos.forms
 
 /** Form by which a UI component is shaped. */
 sealed interface Form {

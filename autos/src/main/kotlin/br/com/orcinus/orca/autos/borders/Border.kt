@@ -1,4 +1,4 @@
-package br.com.orcinus.autos.borders
+package br.com.orcinus.orca.autos.borders
 
 /**
  * Stroke around a UI element.

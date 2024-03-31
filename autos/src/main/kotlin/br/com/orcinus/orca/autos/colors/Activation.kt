@@ -1,4 +1,4 @@
-package br.com.orcinus.autos.colors
+package br.com.orcinus.orca.autos.colors
 
 /**
  * Colors representing activation states.

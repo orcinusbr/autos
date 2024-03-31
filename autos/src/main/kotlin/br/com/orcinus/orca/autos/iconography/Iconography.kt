@@ -1,4 +1,4 @@
-package br.com.orcinus.autos.iconography
+package br.com.orcinus.orca.autos.iconography
 
 /**
  * [Icon]s and IDs of icons that can be used throughout the app within various contexts.

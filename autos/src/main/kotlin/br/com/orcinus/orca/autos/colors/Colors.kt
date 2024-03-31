@@ -1,7 +1,7 @@
-package br.com.orcinus.autos.colors
+package br.com.orcinus.orca.autos.colors
 
-import br.com.orcinus.autos.colors.contrast.Contrast
-import br.com.orcinus.autos.colors.contrast.on
+import br.com.orcinus.orca.autos.colors.contrast.Contrast
+import br.com.orcinus.orca.autos.colors.contrast.on
 
 /** [Contrast]s and colors that compose the palette to be used by the application. */
 enum class Colors {
