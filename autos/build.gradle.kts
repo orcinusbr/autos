@@ -23,7 +23,7 @@ publishing {
   }
 
   repositories.maven {
-    url = URI.create("https://maven.pkg.github.com/the-orca-app/autos")
+    url = URI.create("https://maven.pkg.github.com/orcinusbr/autos")
 
     credentials {
       username = System.getenv("GITHUB_USERNAME")
