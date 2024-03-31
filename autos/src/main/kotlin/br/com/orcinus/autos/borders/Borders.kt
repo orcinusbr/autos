@@ -1,6 +1,6 @@
-package com.jeanbarrossilva.orca.autos.borders
+package br.com.orcinus.autos.borders
 
-import com.jeanbarrossilva.orca.autos.colors.Colors
+import br.com.orcinus.autos.colors.Colors
 
 /**
  * [Border]s by which components are bordered.

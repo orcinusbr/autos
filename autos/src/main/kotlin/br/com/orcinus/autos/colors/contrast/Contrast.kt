@@ -1,4 +1,4 @@
-package com.jeanbarrossilva.orca.autos.colors.contrast
+package br.com.orcinus.autos.colors.contrast
 
 /**
  * Holds two contrasting colors, one for a background and the other for the content over it.

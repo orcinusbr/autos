@@ -1,4 +1,4 @@
-package com.jeanbarrossilva.orca.autos.overlays
+package br.com.orcinus.autos.overlays
 
 /**
  * Portions of the UI taken by an element that's hierarchically higher.

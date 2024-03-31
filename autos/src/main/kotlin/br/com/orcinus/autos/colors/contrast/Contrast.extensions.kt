@@ -1,4 +1,4 @@
-package com.jeanbarrossilva.orca.autos.colors.contrast
+package br.com.orcinus.autos.colors.contrast
 
 /**
  * Creates a [Contrast] with the two contrasting colors, with the receiver being the content one.

@@ -1,4 +1,4 @@
-package com.jeanbarrossilva.orca.autos.iconography
+package br.com.orcinus.autos.iconography
 
 /**
  * Houses different versions of the same icon.
